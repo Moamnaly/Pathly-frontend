@@ -1,0 +1,48 @@
+/* Full-screen dashboard container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;  /* Full viewport width */
+    text-align: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Ensure no extra margin around the container */
+    overflow: hidden; /* Prevent scrollbars from showing */
+  }
+  
+  /* Heading styling */
+  h1 {
+    font-size: 3rem; /* Slightly larger for a full-screen view */
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Paragraph styling */
+  p {
+    margin: 1.5rem 0;
+    font-size: 1.4rem; /* Increase font size for readability */
+    color: #555;
+  }
+  
+  /* Logout button styling */
+  .logout-button {
+    padding: 1rem 2rem; /* Larger padding for better appearance */
+    font-size: 1.2rem;  /* Adjust font size */
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1.5rem; /* Add space between the button and text */
+    width: auto;
+  }
+  
+  /* Hover effect on logout button */
+  .logout-button:hover {
+    background-color: #0056b3;
+  }
+  

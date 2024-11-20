@@ -7,7 +7,7 @@
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(135deg, black, black);
+    background: linear-gradient(135deg, white, white);
     font-family: 'Arial', sans-serif;
     color: #fff;
     margin: 0;
@@ -19,8 +19,8 @@
     width: 400px;
     padding: 30px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); */
     backdrop-filter: blur(10px);
     text-align: center;
   }
@@ -29,13 +29,13 @@
   .login-container h2 {
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #fff;
+    color: #b31414;
   }
   
   .login-container p {
     margin-bottom: 20px;
     font-size: 1.1rem;
-    color: #ddd;
+    color: #0c0606;
   }
   
   /* Form styling */
@@ -67,7 +67,7 @@
   }
   
   /* Button styling */
-  button {
+  /* button {
     width: 100%;
     padding: 12px;
     margin-top: 10px;
@@ -79,16 +79,16 @@
     color: #fff;
     cursor: pointer;
     transition: transform 0.3s ease, background 0.3s ease;
-  }
+  } */
   
-  button:hover {
+  /* button:hover {
     transform: translateY(-3px);
     background: linear-gradient(135deg, #ff6a00, #ffca65);
   }
   
   button:active {
     transform: translateY(1px);
-  }
+  } */
   
   /* Footer links */
   .footer {
@@ -104,13 +104,11 @@
   }
   
   .footer a:hover {
-    color: #ffca65;
+    color: #141109;
   }
   
   /* Animation for fading in */
-  .login-container {
-    animation: fadeIn 1s ease-in-out;
-  }
+
   
   @keyframes fadeIn {
     from {

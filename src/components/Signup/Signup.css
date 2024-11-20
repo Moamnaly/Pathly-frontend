@@ -1,11 +1,6 @@
 /* Full-page wrapper with gradient background */
 .signup-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(135deg, black, black);
+    background: linear-gradient(135deg, white, white);
     font-family: 'Arial', sans-serif;
     color: #fff;
     margin: 0;
@@ -14,11 +9,13 @@
   
   /* Container for the sign-up box */
   .signup-container {
-    width: 400px;
-    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 400px; */
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); */
     backdrop-filter: blur(10px);
     text-align: center;
   }
@@ -33,7 +30,7 @@
   .signup-container p {
     margin-bottom: 20px;
     font-size: 1.1rem;
-    color: #ddd;
+    color: #020202;
   }
   
   /* Form styling */
@@ -65,28 +62,7 @@
   }
   
   /* Button styling */
-  button {
-    width: 100%;
-    padding: 12px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 25px;
-    font-size: 1rem;
-    font-weight: bold;
-    background: linear-gradient(135deg, #ff7e5f, #feb47b);
-    color: #fff;
-    cursor: pointer;
-    transition: transform 0.3s ease, background 0.3s ease;
-  }
-  
-  button:hover {
-    transform: translateY(-3px);
-    background: linear-gradient(135deg, #ff6a00, #ffca65);
-  }
-  
-  button:active {
-    transform: translateY(1px);
-  }
+
   
   /* Footer links */
   .footer {
@@ -106,9 +82,7 @@
   }
   
   /* Animation for fading in */
-  .signup-container {
-    animation: fadeIn 1s ease-in-out;
-  }
+  
   
   @keyframes fadeIn {
     from {

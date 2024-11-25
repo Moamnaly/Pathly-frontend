@@ -35,7 +35,7 @@ const Login = () => {
       const data = await loginApi(username, password);
       localStorage.setItem("token", data.access);
       toast.success("Login successful!");
-      navigate("/dashboard");
+      navigate("/profile");
     } catch (err) {
       setError(err.message || "Login failed. Please try again.");
     } finally {
@@ -65,7 +65,7 @@ const Login = () => {
               fullWidth
               margin="normal"
               required
-              placeholder="Enter your email"
+              placeholder="Enter your username"
               sx={{
                 "& .MuiOutlinedInput-root": {
                   height: "40px", // Set a fixed height for the text field

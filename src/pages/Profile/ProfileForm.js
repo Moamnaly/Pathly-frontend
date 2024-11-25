@@ -511,7 +511,8 @@ const ProfileForm = () => {
                 sx={{
                   backgroundColor: "white",
                   marginRight: "10px",
-                  color: "black"
+                  color: "black",
+                  borderRadius:"10px"
                 }}
               >
                 cancel
@@ -520,7 +521,9 @@ const ProfileForm = () => {
                 type="submit"
                 variant="contained"
                 sx={{
-                  backgroundColor: "blue"
+                  backgroundColor: "blue",
+                  borderRadius:"10px"
+
                 }}
               >
                 Save
